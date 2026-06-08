@@ -1,4 +1,59 @@
-node_modules/
-.DS_Store
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.so
+*.dylib
+
+# IDE
+.vs/
+.vscode/
+*.sln.iml
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Temp files
+temp/
+tmp/
 *.log
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any)
+node_modules/
+npm-debug.log
+
+# Environment
 .env
+.env.local
+
+# IDE backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# IDE Extensions
+.idea/
+*.iml
